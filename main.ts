@@ -2,7 +2,7 @@
  * Voice Serial for MakeCode - Browser voice recognition + micro:bit control
  * 浏览器语音识别 + micro:bit 串口控制扩展
  * 
- * 版本: 1.0.0
+ * 版本: 1.0.1
  * 作者: jiahuaYao
  * 许可证: MIT
  */
@@ -442,7 +442,8 @@ namespace voiceSerial {
                 basic.showIcon(IconNames.Square);
                 break;
             case "⚡":
-                basic.showIcon(IconNames.Lightning);
+                // 修正：使用 No 图标（X形状类似闪电）
+                basic.showIcon(IconNames.No);
                 break;
             default:
                 basic.showString(emoji.charAt(0), 100);
