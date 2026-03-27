@@ -3,7 +3,7 @@
  * 浏览器语音识别 + micro:bit 串口控制扩展
  * 
  * 版本: 1.0.0
- * 作者: Your Name
+ * 作者: jiahuaYao
  * 许可证: MIT
  */
 
