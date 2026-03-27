@@ -1,0 +1,23 @@
+{
+    "voiceSerial.initialize|block": "initialize voice recognition language %lang",
+    "voiceSerial.connectMicrobit|block": "connect micro:bit USB",
+    "voiceSerial.setThreshold|block": "set confidence threshold %threshold",
+    "voiceSerial.onKeyword|block": "on keyword %keyword recognized",
+    "voiceSerial.onSerialDataReceived|block": "on serial data received",
+    "voiceSerial.showEmoji|block": "show emoji %emoji and notify micro:bit",
+    "voiceSerial.sendCommand|block": "send command %command to micro:bit",
+    "voiceSerial.sendRaw|block": "send raw data %data to micro:bit",
+    "voiceSerial.disconnect|block": "disconnect micro:bit",
+    "voiceSerial.lastCommand|block": "last command",
+    "voiceSerial.commandsSent|block": "commands sent",
+    "voiceSerial.isListening|block": "is listening",
+    "voiceSerial.isConnected|block": "is connected",
+    "voiceSerial.stopRecognition|block": "stop recognition",
+    "voiceSerial.waitForKeyword|block": "wait for keyword %keyword",
+    "voiceSerial|block": "Voice",
+    "{id:category}VoiceSerial": "Voice",
+    "{id:group}Setup:设置": "Setup",
+    "{id:group}Events:事件": "Events",
+    "{id:group}Actions:动作": "Actions",
+    "{id:group}Advanced:高级": "Advanced"
+}
