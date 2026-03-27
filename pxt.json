@@ -1,0 +1,25 @@
+{
+    "name": "voice-serial",
+    "version": "1.0.0",
+    "description": "Browser voice recognition + micro:bit serial control, no hardware extension needed",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "icon.png",
+        "_locales/zh/voice-serial-strings.json",
+        "_locales/en/voice-serial-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "preferredEditor": "tsprj",
+    "authors": [
+        "Your Name"
+    ]
+}
